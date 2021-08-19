@@ -1,0 +1,314 @@
+
+Python
+-------
+Everything in python is Object
+**** Every object contains set of methods *****
+
+
+objects
+--------
+
+number
+------
+number can be integer or octal or decimal or hexa.
+
+val = 10
+aval = 34.324
+
+
+string
+------
+string is sequence of characters.
+String can be defined in single or double or triple quotes.
+
+aname = 'python programming'
+bname = "scala programming"
+cname = """unix shell"""
+
+
+list
+-----
+list is set of elements.
+Elements can be set of numbers or strings or any combination.
+list elements are defined in [].
+
+alist = [10,20,3,75]
+blist = ["java","scala","hadoop"]
+clist = [10,4.43,"hadoop",34]
+
+
+
+tuple  ( READ ONLY    IMMUTABLE )
+--------
+tuple contains set of elments.
+Elements can be set of numbers or strings or any combination.
+tuple elements are defined in ().
+****** Elements inside tuple CANNOT be modified directly *******
+
+
+
+
+atup = (10,20,30,4)
+btup  = ("unix","oracle","java")
+ctup = ("scala","deep learning",20,30,45.5)
+
+
+dictionary
+-------------
+dictionary contains elements in key:value pairs
+dictionary elements are defined in {}.
+In dictionary, keys are always number or string which is used to uniquely idenfity
+               values can be number,string,list,tuple,set,dictionary or list of lists or list of dictionaries or
+               more and more complex
+
+Syntax:    object  =  {key:value , key:value , key:value }
+example:    book   =  {"chap1":10 ,"chap2":20 ,"chap3":30}
+            values =  {1:2,3:4,5:6}
+            book   =  {"chap1":[10,"Rita","UK"] ,"chap2":(20,"Ram","US") ,"chap3":[30,"Authur","AUS"] }
+
+
+
+
+set
+----
+set is UNORDERED collection of UNIQUE elements of same type.
+
+aset = {10,20,20,30,40,10}
+
+
+functions & methods
+-------------------------
+
+
+methods
+-------
+-methods are object specific
+-string has its own methods, list has its own methods
+-All the methods are accessed with . 
+
+functions
+---------
+- functions are common for all the objects
+Eg: print()
+
+builtin functions
+--------------------
+print()
+raw_input()      python 2.x
+input()          python 3.x
+len()
+range()
+dir()
+help()
+type()
+isinstance()
+max()
+min()
+sum()
+
+conversion functions or typecasting functions
+-------------------------------------------
+int()
+float()
+oct()
+list()
+tuple()
+set()
+dict()
+str(0
+
+
+
+
+
+
+operators
+----------
+
+
+
+arithemetic operators : + - % /
+
+relational operators :  < <= > >= == !=
+
+if 1 == 2 :
+    # logic
+
+
+logical operators :   and or not
+------------------
+name = "python"
+if name.isupper()  and len(name) >5 :
+    # logic
+
+if name.isupper()  or len(name) >5 :
+    # logic
+
+assignment operators
+-------------------
+val = 10
+val+=1   or   val = val +1  
+val-=1  or    val = val -1
+val*=1  or    val = val *1
+
+special operators
+-----------------
+in
+as
+*
++
+
+
+
+
+
+
+
+
+working with flat files ( csv  log conf rtf  tsv .prop.... )
+
+working with third party files ( pdf pptx ppt doc xlsx mp4 ..... )
+
+
+
+working with flat files 
+-----------------------
+
+opening the file
+-----------------
+syntax:    object = open(filename,mode)
+example:     fobj = open("customers.txt","r")
+
+closing the file
+-------------------
+syntax :  object.close()
+example:    fobj.close()
+
+
+
+fobj = open("customers.txt","r")
+case1: If the file is existing...  file can be opened
+case2:   file is not existing ...
+
+fobj = open("customers.txt","w")
+case1: If file is not existing...  file gets created first
+case2: if file is already existing.. it overwrites the file 
+
+fobj = open("customers.txt","a")
+case1: If file is not existing...  file gets created first
+case2: if file is already existing.. it appends the data to the end of the file
+
+
+
+different ways of reading the file
+--------------------
+- reading line by line   ( using file obect fobj )
+- read the file using fobj.readlines() --> list format
+- read the file using fobj.read()  ------> string format
+- read the file using csv library
+- read file using pandas library ------->
+
+
+
+
+
+
+
+
+exception handling
+----------------
+
+- syntax error
+- semantic error ( runtime error )
+
+Handling the errors in the runtime is known as exception handling.
+
+try
+except
+else
+finally
+
+
+
+
+
+
+
+library or package or module or headerfile
+-------------------------------------------
+- library contains set of methods
+
+
+
+import math
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
